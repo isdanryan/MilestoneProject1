@@ -3,22 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css"> 
-    <!--<script>
-        function toggleMenu() {
-            // Get the checkbox
-            var checkBox = document.getElementById("toggle-menu");
-            // Get the output text
-            var navBar = document.getElementById("nav-bar");
-            
-            // If the checkbox is checked, display the output text
-            if (checkBox.checked == true){
-                navBar.style.display = "block";
-            } else {
-                navBar.style.display = "none";
-            }
-        }
-    </script> -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/fontawesome/css/all.css" rel="stylesheet" type="text/css"> 
     <title>Document</title>
 </head>
 <body>
@@ -39,15 +25,54 @@
                     <li class="nav-link"><a href="#">Menu</a></li>
                 </ul>
             </div>
-            <div class="top-phone"><a href="tel:012345 678910">012345 678910</a></div>
+            <div class="top-phone"><a href="tel:012345 678910"><i class="fa-solid fa-phone fa-sm" style="color: #fd4004;"></i> 012345 678910</a></div>
         </nav>
     </header>
     <section id="hero-image">
-
+        <div class="hero-text">
+            <span class="hero-logo">Tuk Tuk Thai</span>
+            <p>Authentic Thai Cusine</p>
+            <p>Fresh and On the Go!</p>
+            <input type="button" class="view-menu-btn" name="viewMenuBtn" value="View Menu" />
+        </div>
 
     </section>
     <section id="locations">
-
+        <ul class="loction-squares">
+            <li class="location-block" id="location-one">
+                <ul class="location-text">
+                    <li><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i></li>
+                    <li>College Green</li>
+                    <li>Mon & Wed</li>
+                    <li>11am to 8pm</li>
+                </ul>
+            </li>
+            <li class="location-block" id="location-two">
+                <ul class="location-text">
+                    <li><i class="fa-solid fa-location-dot fa-3x" style="color: #ffffff;"></i></li>
+                    <li>Park Street</li>
+                    <li>Tues & Thurs</li>
+                    <li>12pm to 6pm</li>
+                </ul>
+            </li>
+            <li class="location-block" id="location-three">
+                <ul class="location-text">
+                    <li><i class="fa-solid fa-location-dot fa-3x" style="color: #ffffff;"></i></li>
+                    <li>College Green</li>
+                    <li>Thurs & Fri</li>
+                    <li>6pm to 11pm</li>
+                </ul>
+            </li>
+            <li class="location-block" id="location-four">
+                <ul class="location-text">
+                    <li><i class="fa-solid fa-location-dot fa-3x" style="color: #ffffff;"></i></li>
+                    <li>Nelson Street</li>
+                    <li>Saturdays</li>
+                    <li>12pm to 11pm</li>
+                </ul>
+            </li>
+            <li class="clear"></li>
+        </ul>
     </section>
     <section id="journey-section">
 
