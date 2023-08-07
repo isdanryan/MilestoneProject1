@@ -240,6 +240,7 @@ font-family: 'Molengo', sans-serif; */
     display: block;
     text-align: center;
     padding-top: 30px;
+    transition: 200ms;
 }
 
 .location-text li {
@@ -250,6 +251,11 @@ font-family: 'Molengo', sans-serif; */
 
 .location-text li:first-child {
     margin-bottom: 20px;
+}
+
+.location-text:hover {
+    transform:scale(105%);
+    transition: 200ms;
 }
 
 #location-one {
