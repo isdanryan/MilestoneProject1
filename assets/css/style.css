@@ -11,6 +11,16 @@ font-family: 'Molengo', sans-serif; */
     font-family: 'Molengo', Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+    color: #EB3800;
+    text-decoration: none;
+}
+
+h2 {
+    color: #EB3800;
+    font-family: 'Kaushan Script', cursive, Arial, Helvetica, sans-serif;
+}
+
 .clear {
     clear: both;
 }
@@ -213,6 +223,8 @@ font-family: 'Molengo', sans-serif; */
     border: 2px solid #EB3800;
 }
 
+
+/* Begin styling location boxes */
 #locations {
     width: 100%;
     height: auto;
@@ -273,8 +285,68 @@ font-family: 'Molengo', sans-serif; */
 #location-four {
     background-color: #FD4004;
 }
+/* End styling location boxes*/
 
+/*Begin styling homepage content */
 
+#journey-section {
+    margin-bottom: 26px;
+}
+.content-container {
+    width: 100%;
+    height: auto;
+}
+
+#journey-cover-img {
+    width: 90%;
+    height: auto;
+    margin: 0 5% 0;
+}
+
+#journey-home-text {
+    width: 90%;
+    height: auto;
+    margin: 0 5% 0;
+    color: #2c2c2c;
+}
+
+#journey-home-text h2 {
+    text-align: center;
+    margin: 10px auto 10px;
+}
+
+#journey-home-text a:hover {
+    text-decoration: underline;
+}
+
+#food-home-text {
+    width: 40%;
+    margin: 0 5% 0;
+    float: left;
+}
+
+#food-home-text h2 {
+    margin-bottom: 10px;
+}
+
+.food-home-img {
+    width: 40%;
+    height: auto;
+    margin: 0 5% 26px;
+    float: left;
+    vertical-align: top;
+}
+
+.food-home-img img {
+    width: 100%;
+}
+
+#food-home-img-first {
+    width: 100%;
+
+}
+
+/*End styling home page content*/
 
 @media screen and (min-width: 800px) {
 
