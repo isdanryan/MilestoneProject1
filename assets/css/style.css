@@ -243,9 +243,9 @@ h2 {
 }
 
 .location-block {
-    width: 350px;
-    height: 350px;
-    display: block;
+    width: 175px;
+    height: 175px;
+    float: left;
     color: white;
 }
 
@@ -253,18 +253,18 @@ h2 {
     list-style: none;
     display: block;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
     transition: 200ms;
 }
 
 .location-text li {
-    font-size: 2.0rem;
-    margin: 10px auto;
-    line-height: 2.5rem;
+    font-size: 1.2rem;
+    margin: 5px auto;
+    line-height: 1.3rem;
 }
 
 .location-text li:first-child {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .location-text:hover {
@@ -352,6 +352,33 @@ h2 {
 
 /*End styling home page content*/
 
+@media screen and (min-width: 768px) {
+    #locations > ul {
+        width: 720px;
+        margin: 0 auto;
+    }
+
+    .location-block {
+        float: left;
+        width: 180px;
+        height: 180px;
+    }
+
+    .location-text {
+        padding-top: 20px;
+    }
+
+    .location-text li i {
+        font-size: 3.0rem;
+    }
+
+    .location-text li {
+        font-size: 1.5rem;
+        margin: 5px auto;
+        line-height: 1.5rem;
+    }
+}
+
 @media screen and (min-width: 850px) {
 
     .top-logo {
@@ -420,7 +447,7 @@ h2 {
     }
 
     .location-text {
-        padding-top: 20px;
+        padding-top: 26px;
     }
 
     .location-text li i {
@@ -430,7 +457,7 @@ h2 {
     .location-text li {
         font-size: 1.5rem;
         margin: 5px auto;
-        line-height: 1.5rem;
+        line-height: 1.6rem;
     }
 
     .content-container {
