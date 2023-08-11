@@ -1,4 +1,4 @@
-# Tuk Tuk Thai
+# **Tuk Tuk Thai**
 
 [Live Site Here](http://danryan.uk)
 
@@ -7,4 +7,4 @@ Tuk Tuk Thai is a street food truck, operating within Bristol's busy centre. Run
 
 
 # Table of contents 
-1. Site Overview [# Site Overview]
+1. [**Site Overview**] (#site-overview)
