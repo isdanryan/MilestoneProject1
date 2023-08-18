@@ -307,7 +307,7 @@ h3 {
     height: auto;
 }
 
-#journey-home-img {
+#journey-home-img, .journey-image {
     width: 90%;
     height: auto;
     margin: 0 5% 0;
@@ -428,6 +428,20 @@ h3 {
 }
 
 /*End styling home page content*/
+
+/*Begin styling */
+ .content-text {
+    width: 90%;
+    height: fit-content;
+    margin: 20px 5%;
+ }
+
+ .content-text h2 {
+    text-align: center;
+    margin-bottom: 20px;
+ }
+
+/*End styling */
 
 /* Begin styling footer */
 
@@ -643,6 +657,11 @@ h3 {
     #mail-form {
         width: 750px;
     }
+
+    .journey-image {
+        width: 100%;
+        margin: 20px 0;
+    }
 }
 
 @media screen and (min-width:1024px) {
@@ -662,5 +681,15 @@ h3 {
 
     #mail-form {
         width: 950px;
+    }
+
+    .content-text {
+        width: 80%;
+        height: fit-content;
+        margin: 60px 10%;
+     }
+
+     .journey-image {
+        width: 100%;
     }
 }
