@@ -362,40 +362,59 @@ h3 {
 
 #mail-form {
     width: 90%;
-    height: 280px;
+    height: fit-content;
     background-color: #EB3800;
     margin: 26px auto;
     position: relative;
     z-index: 5;
     color: #ffffff;
-    font-size: 1.2rem;
-    padding-top: 30px;
+    font-size: 1.1rem;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#mail-form h4 {
+    margin: 0 5%;
+}
+
+.form-inputs {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .form-row {
-    width: 90%;
+    width: 100%;
+    height: 20px;
     display: block;
-    margin: 30px 5% 0 5%;
+    margin: 30px 20px 0 0;
 }
 
 .form-row label {
     float: left;
     padding: 0 10px 0 10px;
-    width: 40%;
-    text-align: left;
+    width: 110px;
+    text-align: right;
 }
 
 #name, #email {
     float: left;
     border: #ffffff 1px solid;
-    line-height: 1.4rem;
-    width: 50%;
+    line-height: 1.5rem;
+    width: calc(100% - 140px);
+    font-size: 1.0rem;
+    padding-left: 3px;
+}
+
+#name::placeholder, #email::placeholder {
+    color: #aaaaaa;
 }
 
 #submit {
     width: 130px;
     height: 46px;
     margin-top: 40px;
+    margin-bottom: 10px;
     color: #ffffff;
     font-size: 1.1rem;
     font-weight: 500;
@@ -495,6 +514,16 @@ h3 {
 
     .footer > article:last-of-type {
         margin-left: 0;
+    }
+
+    .form-row {
+        width: 50%;
+        margin: 40px 0 10px 0;
+        float: left;
+    }
+
+    .form-row label {
+        width: fit-content;
     }
 
 }
