@@ -407,7 +407,7 @@ h3 {
 
 /* Begin styling footer */
 
-#footer {
+#home-footer {
     width: 100%;
     height: fit-content;
     background-color: #FD8B04;
@@ -416,7 +416,11 @@ h3 {
     
 }
 
-#footer > article {
+.regular-footer {
+    margin-top: 0;
+}
+
+.footer > article {
     width: 80%;
     height: 100px;
     margin: 0 10% 26px;
@@ -478,18 +482,18 @@ h3 {
         line-height: 1.5rem;
     }
 
-    #footer > article {
+    .footer > article {
         display: block;
         float: left;
         width: 26.4%;
         margin: 0 5%;
     }
 
-    #footer > article:first-child {
+    .footer > article:first-child {
         margin-right: 0;
     }
 
-    #footer > article:last-of-type {
+    .footer > article:last-of-type {
         margin-left: 0;
     }
 
