@@ -443,6 +443,45 @@ h3 {
 
 /*End styling */
 
+/* Gallery Page */
+
+#gallery {
+    display: block;
+    width: 90%;
+    margin: 0 5% 0 5%;
+}
+
+#gallery-text {
+    padding: 70px 30px 0 70px;
+    text-align: center;
+}
+
+#gallery-text h2 {
+    padding-bottom: 16px;
+}
+
+#gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 26px 4px;
+    box-sizing: border-box;
+}
+
+.gallery-stack {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 4px;
+    box-sizing: border-box;
+}
+
+.gallery-stack img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* End Gallery */
+
 /* Begin styling footer */
 
 #home-footer {
@@ -549,6 +588,12 @@ h3 {
         width: fit-content;
     }
 
+    .gallery-stack {
+        flex: 50%;
+        max-width: 50%;
+        padding: 0 4px;
+    }
+
 }
 
 @media screen and (min-width: 850px) {
@@ -651,7 +696,7 @@ h3 {
     }
 
     .spacer {
-        height: 80px;
+        height: 40px;
     }
 
     #mail-form {
@@ -692,4 +737,18 @@ h3 {
      .journey-image {
         width: 100%;
     }
+
+    .gallery-stack {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+    }
+}
+
+@media screen and (min-width:1360px) {
+    .content-text {
+        width: 60%;
+        height: fit-content;
+        margin: 10% 20% auto 20%;
+     }
 }
