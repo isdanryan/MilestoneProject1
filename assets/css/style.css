@@ -307,7 +307,7 @@ h3 {
     height: auto;
 }
 
-#journey-home-img, .journey-image {
+#journey-home-img, .journey-image, .location-image {
     width: 90%;
     height: auto;
     margin: 0 5% 0;
@@ -480,6 +480,13 @@ h3 {
     width: 100%;
 }
 
+.gallery-stack img:hover {
+    border: solid 8px white;
+    transform:scale(110%);
+    transition: 600ms;
+
+}
+
 /* End Gallery */
 
 /* Begin styling footer */
@@ -561,6 +568,7 @@ h3 {
 
     .footer {
         padding-bottom: 36px;
+        margin-top: 0;
     }
 
     .footer > article {
@@ -703,9 +711,12 @@ h3 {
         width: 750px;
     }
 
-    .journey-image {
+    .journey-image, .location-image {
         width: 100%;
-        margin: 20px 0;
+        height: 100%;
+        margin: 20px 0 0 0;
+        vertical-align: bottom;
+
     }
 }
 
@@ -734,7 +745,7 @@ h3 {
         margin: 60px 10%;
      }
 
-     .journey-image {
+     .journey-image, .location-image {
         width: 100%;
     }
 
