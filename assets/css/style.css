@@ -436,6 +436,14 @@ h3 {
     margin-bottom: 20px;
  }
 
+ #opening-times {
+    color: #FD8B04;
+ }
+
+ #opening-times tr td {
+    padding: 5px 10px;
+ }
+
 /*End styling */
 
 /* Gallery Page */
@@ -752,6 +760,7 @@ h3 {
 
     #mail-form {
         width: 950px;
+        padding: 30px 5%;
     }
 
     .content-text {
