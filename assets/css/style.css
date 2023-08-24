@@ -48,11 +48,11 @@ h3 {
 
 .top-logo a {
     color: #EB3800;
-    font-family: 'Kaushan Script', cursive, Arial, Helvetica, sans-serif;
-    font-size: 2.0rem;
     text-decoration: none;
     margin: 0 auto auto 10px;
     display: block;
+    font-family: 'Kaushan Script', cursive, Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
 }
 
 /*Begin hamburger toggle menu*/
@@ -310,7 +310,7 @@ h3 {
 #journey-home-img, .journey-image, .location-image {
     width: 90%;
     height: auto;
-    margin: 0 5% 0;
+    margin: 20px 5% 0;
 }
 
 #journey-home-text {
@@ -374,7 +374,7 @@ h3 {
     z-index: 5;
     color: #ffffff;
     font-size: 1.1rem;
-    padding: 30px;
+    padding: 30px 10%;
     box-sizing: border-box;
 }
 
@@ -382,11 +382,6 @@ h3 {
     margin: 0 5%;
 }
 
-.form-inputs {
-    display: block;
-    width: 90%;
-    margin: 0 auto;
-}
 
 .form-row {
     width: 100%;
@@ -397,8 +392,8 @@ h3 {
 
 .form-row label {
     float: left;
-    padding: 0 10px 0 10px;
-    width: 110px;
+    padding: 0 10px 0 0;
+    width: 150px;
     text-align: right;
 }
 
@@ -406,7 +401,7 @@ h3 {
     float: left;
     border: #ffffff 1px solid;
     line-height: 1.5rem;
-    width: calc(100% - 140px);
+    width: calc(100% - 170px);
     font-size: 1.0rem;
     padding-left: 3px;
 }
@@ -536,7 +531,7 @@ h3 {
 
 .ft-text a {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     line-height: 2.5rem;
 }
 
@@ -586,15 +581,7 @@ h3 {
         margin-left: 0;
     }
 
-    .form-row {
-        width: 50%;
-        margin: 40px 0 10px 0;
-        float: left;
-    }
 
-    .form-row label {
-        width: fit-content;
-    }
 
     .gallery-stack {
         flex: 50%;
@@ -631,7 +618,7 @@ h3 {
     .nav-link {
         display: inline-block;
         height: 40px;
-        margin: 0 10px 0 10px;
+        margin: 0 5px 0 5px;
         padding: 0;
     }
 
@@ -709,18 +696,46 @@ h3 {
 
     #mail-form {
         width: 750px;
+        padding: 30px;
     }
 
     .journey-image, .location-image {
         width: 100%;
         height: 100%;
-        margin: 20px 0 0 0;
+        margin: 0;
         vertical-align: bottom;
 
+    }
+
+    .orange {
+        background-color: #FD8B04;
+        color: white;
+     }
+    
+     .orange h2 {
+        color: white;
+     }
+
+     .form-row {
+        width: 50%;
+        margin: 40px 0 10px 0;
+        float: left;
+    }
+
+    .form-row label {
+        width: fit-content;
+    }
+
+    #name, #email {
+        width: calc(100% - 160px);
     }
 }
 
 @media screen and (min-width:1024px) {
+    .nav-link {
+        margin: 0 10px;
+    }
+
     #journey-home-text {
         padding: 26px 10%;
     }
