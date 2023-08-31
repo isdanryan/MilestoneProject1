@@ -5,30 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <link href="assets/fontawesome/css/all.css" rel="stylesheet" type="text/css"> 
-    <title>Document</title>
+    <title>Tuk Tuk Thai - Our Gallery</title>
 </head>
 <body>
+    <!--Begin header & nav bar-->
     <header>
         <nav id="top-bar">
-            <div class="top-logo"><a href="index.html">Tuk Tuk Thai</a></div>
+            <div class="top-logo"><a href="index.html" aria-label="logo">Tuk Tuk Thai</a></div>
             <!--Use hidden checkbox to call fly out menu. Below 850px-->
             <div class="menu-toggle">
-                <input type="checkbox" name="toggleMenu" id="toggle-menu" />
+                <!--Hidden checkbox for flyout menu-->
+                <input type="checkbox" name="toggleMenu" id="toggle-menu" aria-label="toggle menu"/>
+                <!--Hamburger lines-->
                 <span></span>
                 <span></span>
                 <span></span>
-                <ul id="nav-bar">
-                    <li class="nav-link"><a href="index.html">Home</a></li>
-                    <li class="nav-link"><a href="locations.html">Locations</a></li>
-                    <li class="nav-link"><a href="journey.html">Our Journey</a></li>
-                    <li class="nav-link"><a href="gallery.html">Our Food</a></li>
-                    <li class="nav-link"><a href="#">Menu</a></li>
+                <ul id="nav-bar" aria-label="navigation" role="navigation">
+                    <li class="nav-link" aria-labelledby="home-link"><a href="index.html" id="home-link">Home</a></li>
+                    <li class="nav-link" aria-labelledby="location-link"><a href="locations.html" id="location-link">Locations</a></li>
+                    <li class="nav-link" aria-labelledby="journey-link"><a href="journey.html" id="journey-link">Our Journey</a></li>
+                    <li class="nav-link" aria-labelledby="gallery-link"><a href="gallery.html" id="gallery-link">Our Food</a></li>
+                    <li class="nav-link" aria-labelledby="menu-link"><a href="#" id="menu-link">Menu</a></li>
                 </ul>
             </div>
-            <div class="top-phone"><a href="tel:012345 678910"><i class="fa-solid fa-phone fa-sm" style="color: #fd4004;"></i> 012345 678910</a></div>
+            <div class="top-phone"><a href="tel:012345 678910" aria-label="phone number"><i class="fa-solid fa-phone fa-sm" style="color: #fd4004;"></i> 012345 678910</a></div>
         </nav>
     </header>
-    <section id="gallery">
+    <section id="gallery" aria-label="gallery">
         <article id="gallery-text">
             <h2>Food, Glorious Food!</h2>
             <p>Tuk Tuk Thai isn't just a food truck, it's a vessel of culture, a slice of adventure, and a journey of the senses. Each dish is crafted with the same passion that fueled Dave's travels, delivering an experience that's not just about food, but about the stories that enrich each bite. From the fiery dance of Tom Yum Goong to the comforting embrace of Pad Thai, every dish carries the legacy of Dave's journey and Nong's expertise.</p>
@@ -42,25 +45,37 @@
                 <img src="assets/img/gallery/thai-spices.jpg" alt="Photo of a selection of spices" title="We also use a variety of spices in our dishes">
             </div>
             <div class="gallery-stack">
-                <img src="assets/img/gallery/thai-prawns.jpg">
-                <img src="assets/img/gallery/night-time-street-food.jpg">
-                <img src="assets/img/gallery/thai-market.jpg">
-                <img src="assets/img/gallery/chicken-rice-dish.jpg">
-                <img src="assets/img/gallery/chilli-prawns-rice.jpg">
+                <img src="assets/img/gallery/thai-prawns.jpg" alt="Photo of our Thai Prawns dish">
+                <img src="assets/img/gallery/night-time-street-food.jpg" alt="Photo from Daves trip to Thailand showing some of the night time food stalls">
+                <img src="assets/img/gallery/thai-market.jpg" alt="One of the market stalls during the night market in Thailand.">
+                <img src="assets/img/gallery/chicken-rice-dish.jpg" alt="Our chicken and rice dish.">
+                <img src="assets/img/gallery/chilli-prawns-rice.jpg" alt="A photo of our chilli prawns and rice.">
             </div>
             <div class="gallery-stack">
-                <img src="assets/img/gallery/grilled-prawns.jpg">
-                <img src="assets/img/gallery/thai-pork-rice.jpg">
-                <img src="assets/img/gallery/cooked-vegetable-dish.jpg">
-                <img src="assets/img/gallery/street-food-night.jpg">
-                <img src="assets/img/gallery/thai-food-platter.jpg">
+                <img src="assets/img/gallery/grilled-prawns.jpg" alt="Grilled prawns">
+                <img src="assets/img/gallery/thai-pork-rice.jpg" alt="A photo of our delicious Thai Pork Rice">
+                <img src="assets/img/gallery/cooked-vegetable-dish.jpg" alt="One of our vegitarian dishes seasoned with Thai spices.">
+                <img src="assets/img/gallery/street-food-night.jpg" alt="Photo of one of the food stalls at the Thailand night market">
+                <img src="assets/img/gallery/thai-food-platter.jpg" alt="Our variety Thai food platyter.">
             </div>
             <div class="gallery-stack">
-                <img src="assets/img/gallery/thai-pork-noodles.jpg">
-                <img src="assets/img/gallery/thai-yellow-curry.jpg">
-                <img src="assets/img/gallery/food-festival.jpg">
-                <img src="assets/img/gallery/thai-red-curry.jpg">
-                <img src="assets/img/gallery/food-truck-night.jpg">
+                <img src="assets/img/gallery/thai-pork-noodles.jpg" alt="">
+                <img src="assets/img/gallery/thai-yellow-curry.jpg" alt="Photo of our yellow thai curry.">
+                <img src="assets/img/gallery/food-festival.jpg" alt="Picture of our stall at one of the food festivals we attended in Bristol.">
+                <img src="assets/img/gallery/thai-red-curry.jpg" alt="One of our famous Red Thai Currys.">
+                <img src="assets/img/gallery/food-truck-night.jpg" alt="Our food truck parked up at one of our locations at night.">
             </div>
         </article>
     </section>
+    <footer class="footer">
+        <article class="ft-socials" aria-label="social media links"><h4 class="ft-label">Follow Us</h4>
+            <ul>
+                <li><a href="https://facebook.com" target="_blank" aria-label="facebook"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a></li>
+                <li><a href="https://instagram.com" target="_blank" aria-label="instagram"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></li>
+                <li><a href="https://twitter.com" target="_blank" aria-label="twitter"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a> </li>
+            </ul>
+        </article>
+        <article class="ft-phone" aria-label="phone number"><h4 class="ft-label">Call Us</h4><p class="ft-text"><a href="callto:012345 678910">012345 678910</a></p></article>
+        <article class="ft-email" aria-label="email"><h4 class="ft-label">Email Us</h4><p class="ft-text"><a href="mailto:info@tuktukthai.co.uk">info@tuktukthai.co.uk</a></p></article>
+        <br class="clear" />
+    </footer>

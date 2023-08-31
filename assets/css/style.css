@@ -12,8 +12,13 @@ font-family: 'Molengo', sans-serif; */
 }
 
 a {
-    color: #EB3800;
+    color: #DB3300;
     text-decoration: none;
+}
+
+h1 {
+    color: #EB3800;
+    font-family: 'Kaushan Script', cursive, Arial, Helvetica, sans-serif;
 }
 
 h2 {
@@ -74,11 +79,11 @@ h3 {
     position: relative;
     cursor: pointer;
     opacity: 0; /* Hide the checkbox */
-    z-index: 2; /* Set postion above everything */  
+    z-index: 2; /* Set postion above everything to make clickable*/  
     -webkit-touch-callout: none;
 }
 
-/* Create hamburger */
+/* Create hamburger lines */
 .menu-toggle span
 {
     display: block;
@@ -105,7 +110,7 @@ h3 {
     transform-origin: 0% 100%;
 }
 
-/* Transform into a cross */
+/* Transform hamburger into a cross */
 .menu-toggle input:checked ~ span
     {
     opacity: 1;
@@ -175,9 +180,9 @@ h3 {
     color: #EB3800;
     text-decoration: none;
 }
-
 /* End top bar and nav bar */
-/* Begin styling hero section */
+
+/* Begin hero section */
 .clear {
     clear: both;
     height: 0;
@@ -227,9 +232,9 @@ h3 {
     background-color: rgba(250,250,250,0);
     border: 2px solid #EB3800;
 }
-/* End styling hero section */
+/* End hero section */
 
-/* Begin styling location boxes */
+/* Begin location boxes */
 #locations {
     width: 100%;
     height: auto;
@@ -290,9 +295,9 @@ h3 {
 #location-four {
     background-color: #FD4004;
 }
-/* End styling location boxes*/
+/* End location boxes*/
 
-/*Begin styling homepage content */
+/*Begin homepage*/
 
 .spacer {
     width: 100%;
@@ -302,6 +307,7 @@ h3 {
 #journey-section {
     margin-bottom: 30px;
 }
+
 .content-container {
     width: 100%;
     height: 100%;
@@ -353,7 +359,6 @@ h3 {
 
 #food-home-img-first {
     width: 100%;
-
 }
 
 #mailer-section {
@@ -421,10 +426,10 @@ h3 {
     background-color: rgba(250,250,250,0);
     border: 2px solid #ffffff;
 }
+/*End home page*/
 
-/*End styling home page content*/
+/*Begin general content for pages*/
 
-/*Begin styling */
  .content-text {
     width: 90%;
     height: fit-content;
@@ -438,6 +443,7 @@ h3 {
 
  #opening-times {
     color: #FD8B04;
+    margin: 30px;
  }
 
  #opening-times tr td {
@@ -455,10 +461,9 @@ h3 {
     width: 100% ;
  }
 
-/*End styling */
+/*End general content */
 
 /* Gallery Page */
-
 #gallery {
     display: block;
     width: 90%;
@@ -503,7 +508,7 @@ h3 {
 
 /* End Gallery */
 
-/* Begin styling footer */
+/* Begin footer */
 
 #home-footer {
     margin-top: -100px;
@@ -553,6 +558,10 @@ h3 {
     font-size: 1.0rem;
     line-height: 2.5rem;
 }
+
+/*End footer*/
+
+/*Begin breakpoints*/
 
 @media screen and (min-width: 768px) {
     #locations > ul {
@@ -605,8 +614,6 @@ h3 {
         max-width: 50%;
         padding: 0 4px;
     }
-
-
 }
 
 @media screen and (min-width: 850px) {
@@ -736,13 +743,13 @@ h3 {
     .orange {
         background-color: #FD8B04;
         color: white;
-     }
+    }
     
-     .orange h2 {
+    .orange h2 {
         color: white;
-     }
+    }
 
-     .form-row {
+    .form-row {
         width: 50%;
         margin: 40px 0 10px 0;
         float: left;
@@ -785,9 +792,9 @@ h3 {
         width: 80%;
         height: fit-content;
         margin: 60px 10%;
-     }
+    }
 
-     .journey-image, .location-image {
+    .journey-image, .location-image {
         width: 100%;
         object-fit: cover;
     }

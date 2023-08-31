@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <link href="assets/fontawesome/css/all.css" rel="stylesheet" type="text/css"> 
-    <title>Document</title>
+    <title>Tuk Tuk Thai - Authentic Thai Food Truck</title>
 </head>
 <body>
+    <!--Begin header & nav bar-->
     <header>
         <nav id="top-bar">
             <div class="top-logo"><a href="index.html" aria-label="logo">Tuk Tuk Thai</a></div>
             <!--Use hidden checkbox to call fly out menu. Below 850px-->
             <div class="menu-toggle">
+                <!--Hidden checkbox for flyout menu-->
                 <input type="checkbox" name="toggleMenu" id="toggle-menu" aria-label="toggle menu"/>
+                <!--Hamburger lines-->
                 <span></span>
                 <span></span>
                 <span></span>
@@ -29,6 +32,7 @@
         </nav>
     </header>
     <section id="hero-image" aria-label="main image">
+        <!--Create floating box inside hero image-->
         <div class="hero-text">
             <span class="hero-logo">Tuk Tuk Thai</span>
             <p>Authentic Thai Cusine</p>
@@ -36,7 +40,8 @@
             <input type="button" class="view-menu-btn" name="viewMenuBtn" value="View Menu" aria-label="view menu"/>
         </div>
     </section>
-    <section id="locations" aria-label="locations">
+    <!--Centred location squares-->
+    <section id="locations" aria-label="opening locations and times">
         <ul class="loction-squares">
             <li class="location-block" id="location-one">
                 <ul class="location-text">
@@ -73,6 +78,7 @@
             <li class="clear"></li>
         </ul>
     </section>
+    <!--'about' section-->
     <section id="journey-section" aria-label="about us">
         <div class="content-container"><img src="assets/img/food-truck-staff.jpg" id="journey-home-img" alt="Photo of the staff in front the food truck"></div>
         <div class="content-container">
@@ -90,6 +96,7 @@
         <br class="clear" />
     </section>
     <br class="clear" />
+    <!--Link to gallery section-->
     <section id="food-section" aria-label="gallery">
         <div class="content-container">
             <article id="food-home-text">
@@ -107,6 +114,7 @@
         </div>
         <br class="clear" />
     </section>
+    <!--Centered mail form-->
     <section id="mailer-section" aria-label="mail form">
         <h3>Join the Tuk Tuk mailing list today and get 15% off!</h3>
         <form name="mailForm" id="mail-form" action="https://formdump.codeinstitute.net" method="POST" target="_blank">
@@ -119,7 +127,7 @@
         </form>
     </section>
     <footer id="home-footer" class="footer">
-        <article class="ft-socials" aria-label="social media"><h4 class="ft-label">Follow Us</h4>
+        <article class="ft-socials" aria-label="social media links"><h4 class="ft-label">Follow Us</h4>
             <ul>
                 <li><a href="https://facebook.com" target="_blank" aria-label="facebook"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a></li>
                 <li><a href="https://instagram.com" target="_blank" aria-label="instagram"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></li>
@@ -130,6 +138,5 @@
         <article class="ft-email" aria-label="email"><h4 class="ft-label">Email Us</h4><p class="ft-text"><a href="mailto:info@tuktukthai.co.uk">info@tuktukthai.co.uk</a></p></article>
         <br class="clear" />
     </footer>
-
 </body>
 </html>

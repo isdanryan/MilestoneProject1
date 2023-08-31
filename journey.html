@@ -5,27 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <link href="assets/fontawesome/css/all.css" rel="stylesheet" type="text/css"> 
-    <title>Document</title>
+    <title>Tuk Tuk Thai - Our Journey</title>
 </head>
 <body>
+    <!--Begin header & nav bar-->
     <header>
         <nav id="top-bar">
-            <div class="top-logo"><a href="index.html">Tuk Tuk Thai</a></div>
+            <div class="top-logo"><a href="index.html" aria-label="logo">Tuk Tuk Thai</a></div>
             <!--Use hidden checkbox to call fly out menu. Below 850px-->
             <div class="menu-toggle">
-                <input type="checkbox" name="toggleMenu" id="toggle-menu" />
+                <!--Hidden checkbox for flyout menu-->
+                <input type="checkbox" name="toggleMenu" id="toggle-menu" aria-label="toggle menu"/>
+                <!--Hamburger lines-->
                 <span></span>
                 <span></span>
                 <span></span>
-                <ul id="nav-bar">
-                    <li class="nav-link"><a href="index.html">Home</a></li>
-                    <li class="nav-link"><a href="locations.html">Locations</a></li>
-                    <li class="nav-link"><a href="journey.html">Our Journey</a></li>
-                    <li class="nav-link"><a href="gallery.html">Our Food</a></li>
-                    <li class="nav-link"><a href="#">Menu</a></li>
+                <ul id="nav-bar" aria-label="navigation" role="navigation">
+                    <li class="nav-link" aria-labelledby="home-link"><a href="index.html" id="home-link">Home</a></li>
+                    <li class="nav-link" aria-labelledby="location-link"><a href="locations.html" id="location-link">Locations</a></li>
+                    <li class="nav-link" aria-labelledby="journey-link"><a href="journey.html" id="journey-link">Our Journey</a></li>
+                    <li class="nav-link" aria-labelledby="gallery-link"><a href="gallery.html" id="gallery-link">Our Food</a></li>
+                    <li class="nav-link" aria-labelledby="menu-link"><a href="#" id="menu-link">Menu</a></li>
                 </ul>
             </div>
-            <div class="top-phone"><a href="tel:012345 678910"><i class="fa-solid fa-phone fa-sm" style="color: #fd4004;"></i> 012345 678910</a></div>
+            <div class="top-phone"><a href="tel:012345 678910" aria-label="phone number"><i class="fa-solid fa-phone fa-sm" style="color: #fd4004;"></i> 012345 678910</a></div>
         </nav>
     </header>
     <div class="spacer"></div>
@@ -39,11 +42,11 @@
                 <br/>
             </article>
         </div>
-        <div class="flex-content"><img src="assets/img/thai-market-stall.jpg" class="journey-image"></div>
+        <div class="flex-content"><img src="assets/img/thai-market-stall.jpg" class="journey-image" alt="A photo of a night time market stall in Thailand."></div>
         <div class="clear"></div>
     </section>
     <section class=" flex-container orange">
-        <div class="flex-content"><img src="assets/img/thai-floating-market.jpg" class="journey-image"></div>
+        <div class="flex-content"><img src="assets/img/thai-floating-market.jpg" class="journey-image" alt="A photo of one of the boats on the floating market in Thailand."></div>
         <div class="flex-content">
             <article class="content-text">
                 <h2>An Adventure in Thailand</h2>
@@ -66,21 +69,20 @@
                 <br/>
             </article>
         </div>
-        <div class="flex-content"><img src="assets/img/food-truck-night.jpg" class="journey-image"></div>
+        <div class="flex-content"><img src="assets/img/food-truck-night.jpg" class="journey-image" alt="A photo of the food truck open at night."></div>
         <div class="clear"></div>
     </section>
     <footer class="footer">
-        <article class="ft-socials"><h4 class="ft-label">Follow Us</h4>
+        <article class="ft-socials" aria-label="social media links"><h4 class="ft-label">Follow Us</h4>
             <ul>
-                <li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a></li>
-                <li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></li>
-                <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a> </li>
+                <li><a href="https://facebook.com" target="_blank" aria-label="facebook"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a></li>
+                <li><a href="https://instagram.com" target="_blank" aria-label="instagram"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></li>
+                <li><a href="https://twitter.com" target="_blank" aria-label="twitter"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a> </li>
             </ul>
         </article>
-        <article class="ft-phone"><h4 class="ft-label">Call Us</h4><p class="ft-text"><a href="callto:012345 678910">012345 678910</a></p></article>
-        <article class="ft-email"><h4 class="ft-label">Email Us</h4><p class="ft-text"><a href="mailto:info@tuktukthai.co.uk">info@tuktukthai.co.uk</a></p></article>
+        <article class="ft-phone" aria-label="phone number"><h4 class="ft-label">Call Us</h4><p class="ft-text"><a href="callto:012345 678910">012345 678910</a></p></article>
+        <article class="ft-email" aria-label="email"><h4 class="ft-label">Email Us</h4><p class="ft-text"><a href="mailto:info@tuktukthai.co.uk">info@tuktukthai.co.uk</a></p></article>
         <br class="clear" />
     </footer>
-
 </body>
 </html>
