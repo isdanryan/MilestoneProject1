@@ -16,11 +16,6 @@ a {
     text-decoration: none;
 }
 
-h1 {
-    color: #EB3800;
-    font-family: 'Kaushan Script', cursive, Arial, Helvetica, sans-serif;
-}
-
 h2 {
     color: #EB3800;
     font-family: 'Kaushan Script', cursive, Arial, Helvetica, sans-serif;
@@ -152,7 +147,7 @@ h3 {
 
 .nav-link {
     display: block;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
 }
 
 .nav-link a {
@@ -458,7 +453,7 @@ h3 {
  }
 
  .flex-content {
-    width: 100% ;
+    width: 100%;
  }
 
 /*End general content */
