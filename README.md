@@ -89,12 +89,12 @@ The header element sticks to the top of the page as the user scrolls up and down
 * The phone number uses a CallTo hyperlink, so if the user clicks the number while using a mobile device, it will automatically transffer the user to their phone app, with the number loaded.
 * On a mobile layout the menu switches to a hamburger menu to ensure the logo and phone number can still fit along the top.
 
-## **Anchor Tags Within all Pages** 
+### **Anchor Tags Within all Pages** 
 * All text achor tags have had their color set to match the sites colour scheme, meaning the anchor tag did not look out of place, and to help destiguish it as different from the standard text on the page.
 * On a hover event the achonr tags also underline to help denote an embbeded hyperlink.
 * The courser was left to change to the browsers default courser for hyperlinks.
 
-## **Footer**
+### **Footer**
 * The footer includes direct links to all of the social media accounts.
 
 * These icons were imported from font awesome using a local copy of the stored css and fonts. I decided to use a local source instead of using links in order to prevent any changes made by font awesome from causing potential issue with the fonts being displayed properly.
@@ -105,7 +105,7 @@ The header element sticks to the top of the page as the user scrolls up and down
 
 * In a mobile screen layout, all three sections stack ontop each other to provide a cleaner UX.
 
-## **Typography**
+### **Typography**
 * Throughout the page, there are two main fonts used:
   * Kaushan Script - For the logo and headings to give it a strong presence.
   * Molengo - For all other content text. 
