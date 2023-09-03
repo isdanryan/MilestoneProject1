@@ -10,7 +10,9 @@ Tuk Tuk Thai is a street food truck, operating within Bristol's busy centre. Run
     * [***Target Audiences***](#target-audiences)
     * [***User Stories***](#user-stories)
     * [***Site Aims***](#site-aims)
-    * [***How This Will Be Achieved:***](#how-is-this-will-be-achieved)
+    * [***How This Will Be Achieved***](#how-is-this-will-be-achieved)
+    * [***Wireframes***]
+    * [***Colour Scheme***]
 1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
     * [***Header Element:***](#header-element)
         * [*Logo*](#logos)
