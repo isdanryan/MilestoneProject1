@@ -80,6 +80,7 @@ The header element sticks to the top of the page as the user scrolls up and down
 * Hover over feature, which turns either underlines the hover link in desktop layout or highlights the link row in mobile layout.
 * The phone number is also displayed in the header. Due to this being a potential main point of contact, this is set to always be displayed in line with the logo. In a desktop layout, it is situated on the right after the menu. In a mobile layout, this switches with the menu and is more central.
 * The phone number uses a CallTo hyperlink, so if the user clicks the number while using a mobile device, it will automatically transffer the user to their phone app, with the number loaded.
+* On a mobile layout the menu switches to a hamburger menu to ensure the logo and phone number can still fit along the top.
 
 ## **Anchor Tags Within all Pages** 
 * All text achor tags have had their color set to match the sites colour scheme, meaning the anchor tag did not look out of place, and to help destiguish it as different from the standard text on the page.
@@ -104,3 +105,65 @@ The header element sticks to the top of the page as the user scrolls up and down
   * sans-serif & cursive - is used for a backup fonts if there is trouble rending the above fonts.
 
 * All fonts were sourced from Google fonts, as stated in the credits.
+
+## **Individual Page Content features**
+### **Home Page Content:**
+
+* This page features a hero image taking up 90% of the page making it known what the site is about.
+* It has also has the name prominatly displayed, along with tag lines and an easily accessible menu link.
+* This page has a small section above the fold to indicate to the user there is further content down the page. 
+* This page has a summary, breifly detailing information about the food truck.
+* Towards the bottom of the page is a signup form allowing the user to join the newsletter and get offers.
+
+### **Locations Page Content:**
+
+* This page contains the opening times and locations of the food truck.
+* It also has a Google Maps image with large pins showing where to find the food truck.
+
+### **Our Journey Page Content:**
+
+* This page has the back story of the food truck, providing more indepth information on the history of the food truck and its owner.
+* The text is broken up by pictures that relate to the story behind the food truck.
+
+### **Gallery Page Content:**
+
+* This page has a collection of photos of food dishes from the menu and Thailand.
+* The gallery has been made responsive for different devices.
+
+## **Future-Enhancements**
+
+* I would like to make the mail form fully functional, complete with a database to capture user details.
+* I would also like to make the map pins on the Google Map image more interactive. Hovering or clickin on them would bring up the opening times for that location.
+* Looking at some of the code, I would like to swap some of the html & css layout to make more use of the flex css style.
+
+## **Testing Phase**
+
+I have included details of testing both during development and post development in a separate document called [TESTING.md](TESTING.md).
+
+## **Deployment**
+
+* I have deployed the site on GitHub Pages using the following procedure:-
+
+    1. From the project's [repository](https://github.com/isdanryan/TukTukThai), go to the **Settings** tab.
+    2. From the left-hand menu, select the **Pages** tab.
+    3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
+    4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
+
+* The live site can be found via the following URL - [Tuk Tuk Thai live webpage](https://isdanryan.github.io/TukTukThai/index.html)
+
+## **Credits**
+
+* All content was written by myself and checked using gramerly - [Grammerly](https://www.grammerly)
+* Icons used are from [Font Awesome](https://www.fontawesome.com)
+* All fonts were imported from [Google Fonts](https://fonts.google.com/)
+* All gallery images and our journey page images were downloaded from [Dreamstime](https://www.dreamstime.com)
+* The hero image was from user stockgiu at [Vecteezy](https://www.vecteezy.com/photo/24928016-double-decker-bus-speeds-through-city-streets-selling-traditional-festival-meals-generated-by-ai)
+* The inital idea and code for the hamburger menu is a modified version of Erik Terwan at [CodePen.io](https://codepen.io/erikterwan/pen/EVzeRP)
+* Image modifications were done using [Gimp](https://www.gimp.org/)
+* Color grid contrast tool - [Eightshapes](https://contrast-grid.eightshapes.com/) 
+* With thanks to David Bowers [GitHUb](https://github.com/dnlbowers) - Code Institute Mentor who was great in offering advice and resources for this project.
+
+
+
+
+
