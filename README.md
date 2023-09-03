@@ -1,7 +1,5 @@
 # **Tuk Tuk Thai**
 
-[Live Site Here](http://danryan.uk)
-
 ## **Site Overview**
 Tuk Tuk Thai is a street food truck, operating within Bristol's busy centre. Running for over a year without a website, they now want to create a web presence to help bring in new business and allow people to find out where they are, and a bit more about who they are.
 
@@ -21,6 +19,15 @@ Tuk Tuk Thai is a street food truck, operating within Bristol's busy centre. Run
     * [**Anchor Tags Within all Pages Main Content**](#anchor-tags-within-all-pages-main-content)
     * [**Footer**](#footer)
     * [**Typography**](#typography)
+1. [**Individual Page Features**](#individual-page-content-features)
+    * [**Home Page Content**](#home-page-content)
+    * [**Locations Page Content**](#locations-page-content)
+    * [**Our Journey Page Content**](#our-journey-page-content)
+    * [**Gallery Page Content**](#gallery-page-content)
+1. [**Future Enhancements**](#future-enhancements)
+1. [**Testing Phase**](#testing-phase)
+1. [**Deployment**](#deployment)
+1. [**Credits**](#credits)
 
 ## **Planning stage**
 ### **Target Audiences:**
@@ -107,7 +114,7 @@ The header element sticks to the top of the page as the user scrolls up and down
 * All fonts were sourced from Google fonts, as stated in the credits.
 
 ## **Individual Page Content features**
-### **Home Page Content:**
+### **Home Page Content**
 
 * This page features a hero image taking up 90% of the page making it known what the site is about.
 * It has also has the name prominatly displayed, along with tag lines and an easily accessible menu link.
@@ -115,22 +122,22 @@ The header element sticks to the top of the page as the user scrolls up and down
 * This page has a summary, breifly detailing information about the food truck.
 * Towards the bottom of the page is a signup form allowing the user to join the newsletter and get offers.
 
-### **Locations Page Content:**
+### **Locations Page Content**
 
 * This page contains the opening times and locations of the food truck.
 * It also has a Google Maps image with large pins showing where to find the food truck.
 
-### **Our Journey Page Content:**
+### **Our Journey Page Content**
 
 * This page has the back story of the food truck, providing more indepth information on the history of the food truck and its owner.
 * The text is broken up by pictures that relate to the story behind the food truck.
 
-### **Gallery Page Content:**
+### **Gallery Page Content**
 
 * This page has a collection of photos of food dishes from the menu and Thailand.
 * The gallery has been made responsive for different devices.
 
-## **Future-Enhancements**
+## **Future Enhancements**
 
 * I would like to make the mail form fully functional, complete with a database to capture user details.
 * I would also like to make the map pins on the Google Map image more interactive. Hovering or clickin on them would bring up the opening times for that location.
