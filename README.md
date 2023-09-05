@@ -38,7 +38,7 @@ Tuk Tuk Thai is a street food truck, operating within Bristol's busy centre. Run
 * They are users who live or work in Bristol.
 
 ### **User Stories:**
-* As a new user, I want to easily see the subject matter of the site.
+* As a new user, I want to easily see what the main subjet matter of the site is.
 * As a new user, I want to easily navigate the site to find out more information.
 * As a new user, I want to easily find out when and where I can find the food truck.
 * As a returning user, I was to be able to navigate my way key areas of the site.
@@ -72,6 +72,18 @@ Tuk Tuk Thai is a street food truck, operating within Bristol's busy centre. Run
 * The site will have a link to download a copy of the menu onto the users device in the form of a PDF.
 
 * The site will have a sign up form at the bottom of the home page offering the user to join the newsletter to stay up to date and get offers helping to retain repeat business.
+
+### **Wireframes**
+The basic layout for the Tuk Tuk Thai website was designed using Balsamiq. Further wireframes can be found in the pdf.
+
+* PC/Desktop Wireframes:
+![wireframe](assets/readme/wireframes/WireframePC01.png "Desktop Home Screen Wireframe")
+
+* Tablet Wireframes: Due to the resolution of current tablets and the layout of the site. The standard desktop layout will work for tablet users.
+
+* Phone Wireframes:
+![wireframe](assets/readme/wireframes/WireframePhone01.png "Phone Home Screen Wireframe")
+
 
 ## **Current Features Common to all pages**
 ###  **Header Element**
