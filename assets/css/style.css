@@ -271,7 +271,7 @@ h3 {
 }
 
 .location-text:hover {
-    transform:scale(105%);
+    transform: scale(1.05);
     transition: 200ms;
 }
 
@@ -496,7 +496,7 @@ h3 {
 
 .gallery-stack img:hover {
     border: solid 8px white;
-    transform:scale(110%);
+    transform: scale(1.1);
     transition: 600ms;
 
 }

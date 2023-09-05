@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fresh authentic Thai street food in Bristol">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-    <link href="assets/fontawesome/css/all.css" rel="stylesheet" type="text/css"> 
+    <link href="assets/fontawesome/css/all.css" rel="stylesheet" type="text/css">
     <title>Tuk Tuk Thai - Authentic Thai Food Truck</title>
 </head>
 <body>
@@ -15,12 +16,12 @@
             <!--Use hidden checkbox to call fly out menu. Below 850px-->
             <div class="menu-toggle">
                 <!--Hidden checkbox for flyout menu-->
-                <input type="checkbox" name="toggleMenu" id="toggle-menu" aria-label="toggle menu"/>
+                <input type="checkbox" name="toggleMenu" id="toggle-menu" aria-label="toggle menu">
                 <!--Hamburger lines-->
                 <span></span>
                 <span></span>
                 <span></span>
-                <ul id="nav-bar" aria-label="navigation" role="navigation">
+                <ul id="nav-bar" aria-label="navigation">
                     <li class="nav-link" aria-labelledby="home-link"><a href="index.html" id="home-link">Home</a></li>
                     <li class="nav-link" aria-labelledby="location-link"><a href="locations.html" id="location-link">Locations</a></li>
                     <li class="nav-link" aria-labelledby="journey-link"><a href="journey.html" id="journey-link">Our Journey</a></li>
@@ -28,7 +29,7 @@
                     <li class="nav-link" aria-labelledby="menu-link"><a href="assets/img/menu.jpeg" id="menu-link" target="_blank">Menu</a></li>
                 </ul>
             </div>
-            <div class="top-phone"><a href="tel:012345 678910" aria-label="phone number"><i class="fa-solid fa-phone fa-sm" style="color: #fd4004;"></i> 012345 678910</a></div>
+            <div class="top-phone"><a href="tel:012345678910" aria-label="phone number"><i class="fa-solid fa-phone fa-sm" style="color: #fd4004;"></i> 012345 678910</a></div>
         </nav>
     </header>
     <section id="hero-image" aria-label="main image">
@@ -37,7 +38,9 @@
             <h1 class="hero-logo">Tuk Tuk Thai</h1>
             <p>Authentic Thai Cusine</p>
             <p>Fresh and On the Go!</p>
-            <a href="assets/img/menu.jpeg" target="_blank"><input type="button" class="view-menu-btn" name="viewMenuBtn" value="View Menu" aria-label="view menu"/></a>
+            <form action="assets/img/menu.jpeg" target="_blank">
+                <input type="submit" class="view-menu-btn" name="viewMenuBtn" value="View Menu" aria-label="view menu">
+            </form>
         </div>
     </section>
     <!--Centred location squares-->
@@ -85,17 +88,17 @@
             <article id="journey-home-text">
                 <h2>Our Journey</h2>
                 <p>Join us on a culinary expedition that transcends borders and brings the vibrant spirit of Thailand to the streets of Bristol. Whether you're a curious local or a traveler at heart, Tuk Tuk Thai promises a symphony of flavors that will transport you to the bustling streets of Thailand. Come savor the taste of adventure – one dish at a time.</p>
-                <br/>
+                <br>
                 <p>And meet Dave, a seasoned traveler with an insatiable wanderlust and an unyielding love for all things flavorful. From the moment he discovered the captivating allure of Thailand through a travel documentary, his destiny was set. Drawn by the allure of bustling markets, serene temples, and, most of all, the tantalizing aromas of Thai street food, Dave knew he had found his calling.
                 </p>
-                <br/>
+                <br>
                 <p><a href="journey.html">Find out more...</a></p>
-                <br/>
+                <br>
             </article>
         </div>
-        <br class="clear" />
+        <br class="clear">
     </section>
-    <br class="clear" />
+    <br class="clear">
     <!--Link to gallery section-->
     <section id="food-section" aria-label="gallery">
         <div class="content-container">
@@ -103,22 +106,22 @@
                 <h2>Food, Glorious Food!</h2>
                 <p>Fresh ingredients.</p>
                 <p>Full Flavours.</p>
-                <br/>
+                <br>
                 <p><a href="gallery.html">View the gallery...</a></p>
             </article>
             <div class="food-home-img"><img src="assets/img/thai-bowl-greens.jpg" id="food-home-img-first" alt="A bowel of Thai food with leafs"></div>
         </div>
         <div class="content-container">
             <div class="food-home-img"><img src="assets/img/thai-spices.jpg" alt="A collection of different spices"></div>
-            <div class="food-home-img"><img src="assets/img/noodle-bowl.jpeg" alt="A bowl of Thai noodles with chop sticks"></div>
+            <div class="food-home-img"><img src="assets/img/noodle-bowl.jpg" alt="A bowl of Thai noodles with chop sticks"></div>
         </div>
-        <br class="clear" />
+        <br class="clear">
     </section>
     <!--Centered mail form-->
     <section id="mailer-section" aria-label="mail form">
         <h3>Join the Tuk Tuk mailing list today and get 15% off!</h3>
         <form name="mailForm" id="mail-form" action="https://formdump.codeinstitute.net" method="POST" target="_blank">
-            <h4>Plus get vouchers and stay up to date on everything we do! </h3>
+            <h4>Plus get vouchers and stay up to date on everything we do! </h4>
             <div class="form-inputs">
                 <span class="form-row"><label for="name">Name:</label><input type="text" id="name" name="name" placeholder="Name"></span>
                 <span class="form-row"><label for="email">Email Address:</label><input type="email" id="email" name="email" placeholder="Email Address"></span>
@@ -134,9 +137,9 @@
                 <li><a href="https://twitter.com" target="_blank" aria-label="twitter"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a> </li>
             </ul>
         </article>
-        <article class="ft-phone" aria-label="phone number"><h4 class="ft-label">Call Us</h4><p class="ft-text"><a href="callto:012345 678910">012345 678910</a></p></article>
+        <article class="ft-phone" aria-label="phone number"><h4 class="ft-label">Call Us</h4><p class="ft-text"><a href="callto:012345678910">012345 678910</a></p></article>
         <article class="ft-email" aria-label="email"><h4 class="ft-label">Email Us</h4><p class="ft-text"><a href="mailto:info@tuktukthai.co.uk">info@tuktukthai.co.uk</a></p></article>
-        <br class="clear" />
+        <br class="clear">
     </footer>
 </body>
 </html>
