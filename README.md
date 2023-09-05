@@ -6,13 +6,13 @@ Tuk Tuk Thai is a street food truck, operating within Bristol's busy centre. Run
 
 # Table of contents 
 1. [**Site Overview**](#site-overview)
-1. [**Planning stage**](#planning-stage)
+1. [**(UX) User Experience**](#ux-user-experience)
     * [***Target Audiences***](#target-audiences)
     * [***User Stories***](#user-stories)
     * [***Site Aims***](#site-aims)
     * [***How This Will Be Achieved***](#how-is-this-will-be-achieved)
-    * [***Wireframes***]
-    * [***Colour Scheme***]
+    * [***Wireframes***](#wireframes)
+    * [***Colour Scheme***](#colour-scheme)
 1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
     * [***Header Element:***](#header-element)
         * [*Logo*](#logos)
@@ -21,6 +21,7 @@ Tuk Tuk Thai is a street food truck, operating within Bristol's busy centre. Run
     * [**Anchor Tags Within all Pages Main Content**](#anchor-tags-within-all-pages-main-content)
     * [**Footer**](#footer)
     * [**Typography**](#typography)
+    * [**Technologies Used**](#technologies-used)
 1. [**Individual Page Features**](#individual-page-content-features)
     * [**Home Page Content**](#home-page-content)
     * [**Locations Page Content**](#locations-page-content)
@@ -31,7 +32,7 @@ Tuk Tuk Thai is a street food truck, operating within Bristol's busy centre. Run
 1. [**Deployment**](#deployment)
 1. [**Credits**](#credits)
 
-## **Planning stage**
+## **(UX) User Experience**
 ### **Target Audiences:**
 * The target audience has an age range of between 16 - 60 
 * They are users who like to experience new or asian foods.
@@ -85,11 +86,16 @@ The basic layout for the Tuk Tuk Thai website was designed using Balsamiq. Furth
 ![wireframe](assets/readme/wireframes/WireframePhone01.png "Phone Home Screen Wireframe")
 ![wireframe](assets/readme/wireframes/WireframePhone02.png "Location Screen Wireframe")
 
+### **Colour Scheme**
+When deciding on the main colours to use throughout the site, I wanted to keep things simple and easily visible accross the site. I settled on an almost black and a range of oranges, using one as the main orange throughout the site. I choose orange to represet the spices commonly used in Asian cooking.
+
+* Text - (Hex) #2c2c2c
+* Headings, logo & links - (Hex) #DB3300
 
 
 ## **Current Features Common to all pages**
 ###  **Header Element**
-The header element sticks to the top of the page as the user scrolls up and down. I used this method to ensure the user always had easy of access to the menu as well as phone number.
+* The header element sticks to the top of the page as the user scrolls up and down. I used this method to ensure the user always had easy of access to the menu as well as phone number.
 
 #### *Logo:*
 * The sites logo also doubles as the title for the business, it easily illustrates the business name and can easily be read and identified on the page.
@@ -128,6 +134,11 @@ The header element sticks to the top of the page as the user scrolls up and down
   * sans-serif & cursive - is used for a backup fonts if there is trouble rending the above fonts.
 
 * All fonts were sourced from Google fonts, as stated in the credits.
+
+### **Technologies Used**
+This site was built using the following languages:
+* HTML
+* CSS
 
 ## **Individual Page Content features**
 ### **Home Page Content**
