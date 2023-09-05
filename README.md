@@ -104,6 +104,8 @@ When deciding on the main colours to use throughout the site, I wanted to keep t
 
 * Keeping the logo in the same postion accross all devices ensures the name is always in a prominat location to the user.
 
+![Screenshot](assets/readme/screenshots/header.png "Desktop Header Menu")
+
 #### *Navigation Bar:*
 * The navigation bar appears on all pages. 
 * It contains links to the 'locations', 'our journey', 'gallery' and menu to allow easy navigation around the website. 
@@ -112,6 +114,8 @@ When deciding on the main colours to use throughout the site, I wanted to keep t
 * The phone number is also displayed in the header. Due to this being a potential main point of contact, this is set to always be displayed in line with the logo. In a desktop layout, it is situated on the right after the menu. In a mobile layout, this switches with the menu and is more central.
 * The phone number uses a CallTo hyperlink, so if the user clicks the number while using a mobile device, it will automatically transffer the user to their phone app, with the number loaded.
 * On a mobile layout the menu switches to a hamburger menu to ensure the logo and phone number can still fit along the top.
+
+![Screenshot](assets/readme/screenshots/menu.png "Burger Menu Screenshot")
 
 ### **Anchor Tags Within all Pages** 
 * All text achor tags have had their color set to match the sites colour scheme, meaning the anchor tag did not look out of place, and to help destiguish it as different from the standard text on the page.
