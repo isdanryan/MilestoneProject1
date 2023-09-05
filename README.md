@@ -77,12 +77,16 @@ Tuk Tuk Thai is a street food truck, operating within Bristol's busy centre. Run
 The basic layout for the Tuk Tuk Thai website was designed using Balsamiq. Further wireframes can be found in the pdf.
 
 * PC/Desktop Wireframes:
+<br/>
 ![wireframe](assets/readme/wireframes/WireframePC01.png "Desktop Home Screen Wireframe")
 
 * Tablet Wireframes: Due to the resolution of current tablets and the layout of the site. The standard desktop layout will work for tablet users.
 
 * Phone Wireframes:
+<br/>
 ![wireframe](assets/readme/wireframes/WireframePhone01.png "Phone Home Screen Wireframe")
+![wireframe](assets/readme/wireframes/WireframePhone02.png "Location Screen Wireframe")
+
 
 
 ## **Current Features Common to all pages**
