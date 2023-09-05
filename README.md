@@ -31,6 +31,10 @@ Tuk Tuk Thai is a street food truck, operating within Bristol's busy centre. Run
     * [**Gallery Page Content**](#gallery-page-content)
 1. [**Future Enhancements**](#future-enhancements)
 1. [**Testing Phase**](#testing-phase)
+    * [**During Development Testing**](#during-development-testing)
+    * [**Manual Testing**](#manual-testing)
+    * [**Bugs & Fixes**](#bugs-and-fixes)
+    * [**Post Development Testing**](#post-development-testing)
 1. [**Deployment**](#deployment)
 1. [**Credits**](#credits)
 
@@ -175,10 +179,52 @@ This site was built using the following languages:
 * I would like to make the mail form fully functional, complete with a database to capture user details.
 * I would also like to make the map pins on the Google Map image more interactive. Hovering or clickin on them would bring up the opening times for that location.
 * Looking at some of the code, I would like to swap some of the html & css layout to make more use of the flex css style.
+* I would like to implement some javascript within the gallery page to only load the images just before the fold, to better enhance page speeds for that page.
 
 ## **Testing Phase**
+### **During Development Testing**
+During the development process, I continually carried out manual testing in the following ways:-
 
-I have included details of testing both during development and post development in a separate document called [TESTING.md](TESTING.md).
+* Manually testing each element for appearance and responsiveness via a Google Chromes dev tools.
+
+* Continually tested in multiple browsers.
+    
+* Published the page via a web hosted server and shared to friends and family to test.
+
+### **Manual Testing:**
+* During testing, I used five different browsers to ensure cross-compatibility. The desktop browsers used by myself were:
+
+  1. Chrome
+  2. Firefox  
+  3. Opera
+  4. Edge
+  5. Safari
+
+* I then used the devtools to simulate different screen sizes/devices from 320 px up to 4000px in width. 
+* In addition to this, I also asked several people to test using iPhones and Apple Mac laptops/desktops. These users reported no issues or bugs.
+
+### ***Bugs and Fixes:***
+
+### **Post Development Testing**
+#### **Validators**
+
+#### ***HTML*** - https://validator.w3.org/nu/
+
+#### ***CSS*** - https://jigsaw.w3.org/css-validator/
+
+* CSS checked with the above CSS validator and no issues found
+![CSS validator badge](assets/readme/screenshots/css-validator.png)
+
+### **Lighthouse Scores**
+### **Test conditions**
+
+#### ***Desktop Version:***
+
+#### ***Mobile Version:***
+
+### **Accessability**
+
+In addition to the accessability score on light house I also used [WAVE - Web accessability evaluation tool](https://wave.webaim.org/) to check my pages for accessability. There were some low contrast scores within two areas of the footer, however to keep the style of the page consistant I chose to leave these, as the information is also available elsewhere one the website.
 
 ## **Deployment**
 
