@@ -60,8 +60,11 @@ Tuk Tuk Thai is a street food truck, operating within Bristol's busy centre. Run
 * To offer the user a chance to connect to the food truck.
 * Provide the user with visual images of the food and food truck.
 * Provide a method by which the user can subscribe to a newsletter/offers to retain repeat buinsness.
+* I expect the majority of users to be accessing the site via a mobile devices, the site will be built around a mobile layout and then adjusted using media queries to fit other device layouts.
 
 ### **How This Will Be Achieved:**
+* The home page will have a large hero image showing a food truck to easily identify to the user what the site is about.
+
 * The home page provides the user with a summary of the locations, the back story of the food truck and its owner and a way for the user to sign up for offers and to stay up to date.
 
 * The site will provide multiple ways to contact the food truck such as 
@@ -97,7 +100,6 @@ When deciding on the main colours to use throughout the site, I wanted to keep t
 
 * Text - (Hex) #2c2c2c
 * Headings, logo & links - (Hex) #DB3300
-
 
 ## **Current Features Common to all pages**
 ###  **Header Element**
