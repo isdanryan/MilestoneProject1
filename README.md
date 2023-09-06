@@ -29,13 +29,13 @@ Tuk Tuk Thai is a street food truck, operating within Bristol's busy centre. Run
     * [**Locations Page Content**](#locations-page-content)
     * [**Our Journey Page Content**](#our-journey-page-content)
     * [**Gallery Page Content**](#gallery-page-content)
-1. [**Future Enhancements**](#future-enhancements)
 1. [**Testing Phase**](#testing-phase)
     * [**During Development Testing**](#during-development-testing)
     * [**Manual Testing**](#manual-testing)
     * [**Bugs & Fixes**](#bugs-and-fixes)
     * [**Post Development Testing**](#post-development-testing)
 1. [**Deployment**](#deployment)
+1. [**Future Enhancements**](#future-enhancements)
 1. [**Credits**](#credits)
 
 ## **(UX) User Experience**
@@ -174,13 +174,6 @@ This site was built using the following languages:
 * This page has a collection of photos of food dishes from the menu and Thailand.
 * The gallery has been made responsive for different devices.
 
-## **Future Enhancements**
-
-* I would like to make the mail form fully functional, complete with a database to capture user details.
-* I would also like to make the map pins on the Google Map image more interactive. Hovering or clickin on them would bring up the opening times for that location.
-* Looking at some of the code, I would like to swap some of the html & css layout to make more use of the flex css style.
-* I would like to implement some javascript within the gallery page to only load the images just before the fold, to better enhance page speeds for that page.
-
 ## **Testing Phase**
 ### **During Development Testing**
 During the development process, I continually carried out manual testing in the following ways:-
@@ -205,10 +198,26 @@ During the development process, I continually carried out manual testing in the 
 
 ### ***Bugs and Fixes:***
 
+* **Issue** - Trying to use fontawesomes kit/javascript way of loading icons wasn't working. Only a square was being rendered on the site
+* **Fix** - Downloaded and sourced the required fontawesome css file locally.
+
+
 ### **Post Development Testing**
 #### **Validators**
 
 #### ***HTML*** - https://validator.w3.org/nu/
+
+* Home Page  
+![HTML validator results](assets/readme/screenshots/html-validator01.png)
+
+* Locations Page  
+![HTML validator results](assets/readme/screenshots/html-validator02.png)
+
+* Gallery Page  
+![HTML validator results](assets/readme/screenshots/html-validator03.png)
+
+* Journey Page  
+![HTML validator results](assets/readme/screenshots/html-validator04.png)
 
 #### ***CSS*** - https://jigsaw.w3.org/css-validator/
 
@@ -220,7 +229,35 @@ During the development process, I continually carried out manual testing in the 
 
 #### ***Desktop Version:***
 
+* Home Page  
+![Lighthouse results](assets/readme/screenshots/lightouse-homepage-desktop.png)
+
+* Locations Page  
+![Lighthouse results](assets/readme/screenshots/lighthouse-locations-desktop.png)
+
+* Journey Page  
+![Lighthouse results](assets/readme/screenshots/lighthouse-journey-desktop.png)
+
+* Gallery Page  
+![Lighthouse results](assets/readme/screenshots/lighthouse-gallery-desktop.png)
+
 #### ***Mobile Version:***
+
+* Home Page  
+![Lighthouse results](assets/readme/screenshots/lighthouse-homepage-mobile.png)
+
+* Locations Page  
+![Lighthouse results](assets/readme/screenshots/lighthouse-locations-mobile.png)
+
+* Journey Page  
+![Lighthouse results](assets/readme/screenshots/lighthouse-journey-mobile.png)
+
+* Gallery Page  
+![Lighthouse results](assets/readme/screenshots/lighthouse-gallery-mobile.png)
+
+The major impact on the performance score accross all tests was the render-block resource from the loading of the fontawesome CSS file. Ideally this will be corrected once the ability to load the CSS file via Javascript or CDN.
+
+The Gallery page also had a lower than average score, this was due to the number of images on the page. I have listed in future enhancements a couple of ways to improve this.
 
 ### **Accessability**
 
@@ -236,6 +273,13 @@ In addition to the accessability score on light house I also used [WAVE - Web ac
     4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
 * The live site can be found via the following URL - [Tuk Tuk Thai live webpage](https://isdanryan.github.io/TukTukThai/index.html)
+
+## **Future Enhancements**
+
+* I would like to make the mail form fully functional, complete with a database to capture user details.
+* I would also like to make the map pins on the Google Map image more interactive. Hovering or clickin on them would bring up the opening times for that location.
+* Looking at some of the code, I would like to swap some of the html & css layout to make more use of the flex css style.
+* I would like to implement some javascript within the gallery page to only load the images just before the fold, to better enhance page speeds for that page.
 
 ## **Credits**
 
