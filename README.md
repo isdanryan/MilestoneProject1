@@ -200,9 +200,18 @@ During the development process, I continually carried out manual testing in the 
 
 ### ***Bugs and Fixes:***
 
-* **Issue** - Trying to use fontawesomes kit/javascript way of loading icons wasn't working. Only a square was being rendered on the site
-* **Fix** - Downloaded and sourced the required fontawesome css file locally.
-
+1. 
+ * **Issue** - Trying to use fontawesomes kit/javascript way of loading icons wasn't working. Only a square was being rendered on the site
+ * **Fix** - Downloaded and served the required fontawesome css file locally.
+1. 
+ * **Issue** - Using scaleable float to align sections on the journey page to created the required layout was causing incorrect shifting of elments.
+ * **Fix** - Used Flex instead of float.
+1. 
+ * **Issue** - The span elements used for the pure CSS hamburger menu were create a non uniform cross.
+ * **Fix** - Removed the given transform properties and created new values to create the correct cross within the layout of the page.
+1. 
+ * **Issue** - Slow load times were on the gallery pages were being caused by the images.
+ * **Fix** - Used an online tool to compress the images down allowing an average of 85% saving.
 
 ### **Post Development Testing**
 #### **Validators**
@@ -227,8 +236,6 @@ During the development process, I continually carried out manual testing in the 
 ![CSS validator badge](assets/readme/screenshots/css-validator.png)
 
 ### **Lighthouse Scores**
-### **Test conditions**
-
 #### ***Desktop Version:***
 
 * Home Page  
