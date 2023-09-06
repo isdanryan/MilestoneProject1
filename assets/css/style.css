@@ -11,6 +11,11 @@ font-family: 'Molengo', sans-serif; */
     font-family: 'Molengo', Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
 a {
     color: #E03400;
     text-decoration: none;
@@ -456,6 +461,18 @@ h3 {
     width: 100%;
  }
 
+ .content-success {
+    width: 100%;
+    margin: 60px auto;
+    padding: 0 30px;
+    text-align: center;
+    box-sizing: border-box;
+ }
+
+ .content-success img {
+    padding-bottom: 30px;
+ }
+
 /*End general content */
 
 /* Gallery Page */
@@ -516,6 +533,7 @@ h3 {
     background-color: #DE7B02 /* #FD8B04 */;
     margin-top: 20px;
     padding: 40px 0 0 0;
+    bottom: 0;
 }
 
 .footer > article {
@@ -605,6 +623,11 @@ h3 {
 
     .footer > article:last-of-type {
         margin-left: 0;
+    }
+
+    .bottom-pin {
+        position: absolute;
+        bottom: 0;
     }
 
     .gallery-stack {
